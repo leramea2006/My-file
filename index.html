@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Flourishing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Human Flourishing</h1>
+        <p>Explore, Set Goals, Reflect, and Grow</p>
+    </header>
+
+    <main>
+        <section id="info">
+            <h2>What is Human Flourishing?</h2>
+            <p>Human flourishing refers to the realization of a person's potential, well-being, and a fulfilling life.</p>
+            <ul>
+                <li>Self-awareness</li>
+                <li>Personal growth</li>
+                <li>Relationships</li>
+                <li>Purpose and meaning</li>
+                <li>Physical and mental well-being</li>
+            </ul>
+        </section>
+
+        <section id="goal-setting">
+            <h2>Set Your Goals</h2>
+            <input type="text" id="goalInput" placeholder="Enter your goal">
+            <button onclick="addGoal()">Add Goal</button>
+            <ul id="goalList"></ul>
+        </section>
+
+        <section id="reflections">
+            <h2>Reflect on Your Day</h2>
+            <textarea id="reflectionInput" placeholder="Enter your reflection"></textarea>
+            <button onclick="addReflection()">Add Reflection</button>
+            <ul id="reflectionList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Human Flourishing Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
